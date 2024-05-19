@@ -1,0 +1,44 @@
+body{
+	background-color: Lightgreen;
+	background-image: url(https://media3.giphy.com/media/wTpkLqAZf3NFcgzQ4J/giphy.gif);
+	background-size: 200px;
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	background-attachment: fixed;
+}	
+p{
+	font-size: 1in;
+	background-image: url(https://t4.ftcdn.net/jpg/05/71/83/47/360_F_571834789_ujYbUnH190iUokdDhZq7GXeTBRgqYVwa.jpg);
+	background-size: cover;
+	color: purple;
+	text-align: center;
+}
+div{
+	width: 500px;
+	height: 500px;
+}
+#d1{
+	background-image: url(https://www.atlanticcouncil.org/wp-content/uploads/2023/08/2023-08-06T000000Z_429647351_MT1NURPHO000YAWCZF_RTRMADP_3_UKRAINE-CRISIS-scaled-e1692296643417.jpg);
+	background-size: cover;
+
+}
+#d2{
+	background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Ftourbaza.com%2Fru%2Fpejzazhi-ukrainy-foto%2F&psig=AOvVaw25wx4HKU7FAQ-XCXxhDY30&ust=1708942241916000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCID2nougxoQDFQAAAAAdAAAAABAJ);
+	background-size: cover;
+	border:solid 30px;
+	border-image: linear-gradient(blue,yellow) 30;
+	
+
+}
+#img1{
+	width: 50%;
+	border: ridge 20px yellow;
+
+}
+#img2{
+	width: 50%;
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+	box-shadow: 0px 0px 70px red;
+}

@@ -1,0 +1,64 @@
+body{
+	background-color: lightcoral;
+}
+p{
+	font-size: 50px;
+}
+.p1{
+	background-color: violet;
+	color: pink;
+}
+.p2{
+	font-family: sans-serif;
+}
+.p3{
+	 font-family: Georgia, Times, "Times New Roman",  serif;
+	 font-weight: 700;
+}
+.p4{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.p5{
+	font-family: cursive;
+}
+.p6{
+	font-family: monospace;
+}
+.p7{
+font-family: "Kablammo", system-ui;
+font-weight: 900;
+color: darkred;
+text-shadow: 0 0 10px plum;
+text-decoration: underline;
+text-decoration-style: wavy;
+text-underline-position: under;
+}
+.p8{
+font-family: "Rubik Bubbles", system-ui;
+color: darkgreen;	
+text-shadow: 2px 2px greenyellow;
+text-decoration: underline;
+text-decoration-style: dotted;
+text-underline-position: under;
+text-decoration-color: red;
+}
+.p9{
+font-family: "Rubik Glitch Pop", system-ui;	
+color: magenta;
+text-shadow: 2px -2px lightgoldenrodyellow, 4px -4px lightsalmon;
+
+}
+.p10{
+font-family: "Pacifico", cursive;
+color: mediumseagreen;
+text-shadow: 2px -2px 10px aqua;
+
+}
+.p11{
+	font-style: italic;
+	text-shadow:
+    1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+  color: white;
+}

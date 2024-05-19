@@ -1,0 +1,47 @@
+h1{
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+h2{
+	text-align: left;
+	font-weight: normal;
+}
+p{
+	text-align: justify;
+	text-indent: 24px;
+	line-height: 24px;
+	word-spacing: 5px;
+}
+.fr{
+	float: right;
+	
+	padding: 5px;
+	display: table;
+	border: 1px solid #c8ccd1;
+    border-bottom: 0;
+}
+.fr > figcaption{
+	display: table-caption;
+  caption-side: bottom;
+  border: 1px solid #c8ccd1;
+    border-top: 0;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+.a1{
+	text-decoration: none;
+}
+.a1:hover{
+	text-decoration: underline;
+}
+.a1:active{
+	color: orange;
+}
+.a1:visited{
+	color: green;
+}
+ul{
+	list-style-type: none;
+}
