@@ -3,7 +3,7 @@ This repository contains HTML and CSS files for creating an information card or 
 - **index.html**: Main page with general information.
 - **Ukraine.html**: Page related to Ukraine.
 - **basa.html**: Page with 1 <p>.
-- **blocks.html**: Page with block elements (possibly the structure of a webpage).
+- **blocks.html**: Page with block elements.
 - **color.html**: Page about colors.
 - **gradient.html**: Page about gradients.
 - **img.html**: Page with images.
