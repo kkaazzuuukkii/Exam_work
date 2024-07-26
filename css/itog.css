@@ -1,7 +1,8 @@
-body{
-    background-color: #070F2B;
+body {
+  background-color: #070F2B;
 }
-a{
+
+a {
   text-decoration: none;
   color: #4830F0;
 
@@ -14,18 +15,23 @@ a{
 /*                   */
 /*                   */
 /*-------------------*/
-@media only screen and (max-width:500px){
-  nav,main,aside{
+@media only screen and (max-width:500px) {
+
+  nav,
+  main,
+  aside {
     width: 100%;
   }
 }
-@media only screen and (max-width:800px){
-  article{
+
+@media only screen and (max-width:800px) {
+  article {
     width: 97%;
   }
 }
-@media only screen and (max-width:800px){
-  .mc{
+
+@media only screen and (max-width:800px) {
+  .mc {
     width: 97%;
   }
 }
@@ -38,27 +44,19 @@ a{
 /*                   */
 /*-------------------*/
 
-header{
-    height: 320px;
-    background-color: #091428;    
+header {
+  width: 100%;
+  height: 250px;
+  background-color: mediumseagreen;
 }
-.bgvideo{
-	width: 100%;
-	height: 100%;
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+
+.bgvideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
 }
-.bgvideo video{
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	object-fit: cover;
-	z-index: 1;
-}
+
 /*-------------------*/
 /*                   */
 /*                   */
@@ -67,29 +65,42 @@ header{
 /*                   */
 /*-------------------*/
 
-h1{
-    text-align: center;
-    color: #b8bce2;
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    font-size: 30px;
-    position: sticky;
-    top: 12px;
+h1 {
+  text-align: center;
+  color: #b8bce2;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 30px;
+  position: sticky;
+  top: 12px;
 }
-nav{
-    width: 22%;
-    height: 1710px;
-    background-color: #060d26;
-    float: left;
+
+nav {
+  width: 22%;
+  height: 1710px;
+  background-color: #060d26;
+  float: left;
 }
-.up{
-    height: 200px;
-    width: 200px;
-    position: sticky;
-    top: 410px;
-    padding-left: 95px;
+
+.links {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.up {
+  height: 200px;
+  width: 200px;
+  position: sticky;
+  top: 430px;
+  background-size: 100%;
+  background-position: center;
+  background-image: url('../img/54922.png');
+  margin-inline: auto;
+
 }
 
 .btn {
@@ -105,13 +116,14 @@ nav{
   top: 620px;
   height: 80px;
   width: 400px;
- }
-  .btn-primary {
+}
+
+.btn-primary {
   background: #5a7ce2;
   background: -moz-linear-gradient(-45deg, #5a7ce2 0%, #8283e8 50%, #5c5de8 51%, #565bd8 71%, #575cdb 100%);
-  background: -webkit-linear-gradient(-45deg, #5a7ce2 0%,#8283e8 50%,#5c5de8 51%,#565bd8 71%,#575cdb 100%);
-  background: linear-gradient(135deg, #5a7ce2 0%,#8283e8 50%,#5c5de8 51%,#565bd8 71%,#575cdb 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a7ce2', endColorstr='#575cdb',GradientType=1 );
+  background: -webkit-linear-gradient(-45deg, #5a7ce2 0%, #8283e8 50%, #5c5de8 51%, #565bd8 71%, #575cdb 100%);
+  background: linear-gradient(135deg, #5a7ce2 0%, #8283e8 50%, #5c5de8 51%, #565bd8 71%, #575cdb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5a7ce2', endColorstr='#575cdb', GradientType=1);
   background-size: 400% 400%;
   -webkit-animation: AnimationName 3s ease infinite;
   -moz-animation: AnimationName 3s ease infinite;
@@ -120,12 +132,13 @@ nav{
   -moz-animation: AnimationName 3s ease infinite;
   animation: AnimationName 3s ease infinite;
   border: medium none;
- }
-  .btn-outline-primary:hover {
+}
+
+.btn-outline-primary:hover {
   background-color: #5a7ce2;
   border-color: #5a7ce2;
   color: #fff;
- }
+}
 
 /*-------------------*/
 /*                   */
@@ -135,7 +148,7 @@ nav{
 /*                   */
 /*-------------------*/
 
-h2{
+h2 {
   color: #b8bce2;
   font-size: 30px;
   font-family: "Roboto Slab", serif;
@@ -144,21 +157,25 @@ h2{
   font-style: normal;
   text-align: center;
 }
-main{
+
+main {
   width: 53%;
   background-color: #050c21;
   float: left;
   padding-top: 30px;
 }
-p{
+
+p {
   color: #a5a9ce;
   font-size: 20px;
 }
-.dd{
-  width: 500px; 
+
+.dd {
+  width: 500px;
   height: 258px;
 }
-h3{
+
+h3 {
   color: #b8bce2;
   font-size: 30px;
   font-family: "Roboto Slab", serif;
@@ -167,7 +184,8 @@ h3{
   font-style: normal;
   text-align: center;
 }
-h4{
+
+h4 {
   color: #b8bce2;
   font-size: 30px;
   font-family: "Roboto Slab", serif;
@@ -176,7 +194,8 @@ h4{
   font-style: normal;
   text-align: center;
 }
-#youtube > iframe{
+
+#youtube>iframe {
   margin: auto;
   display: block;
 }
@@ -189,12 +208,13 @@ h4{
 /*                   */
 /*-------------------*/
 
-aside{
+aside {
   width: 25%;
   float: left;
   height: 1710px;
 }
-.img1{
+
+.img1 {
   width: 280px;
   float: left;
   display: block;
@@ -205,7 +225,8 @@ aside{
   border-radius: 35px;
   position: relative;
 }
-h5{
+
+h5 {
   color: #b8bce2;
   font-size: 30px;
   font-family: "Roboto Slab", serif;
@@ -226,24 +247,29 @@ h5{
 /*                   */
 /*-------------------*/
 
-footer{
-  height: 250px;
+footer {
+  width: 100%;
   background-color: #030b22;
   clear: both;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
-footer section{
-  width: 32%;
-}
-#contact1{
+
+#contact1 {
   display: inline-block;
 }
-#social{
+
+#social {
   display: inline-block;
 }
-#good{
+
+#good {
   display: inline-block;
 }
-#contact1 > h6{
+
+#contact1>h6 {
   color: #696f91;
   font-size: 20px;
   font-family: "Roboto Slab", serif;
@@ -252,7 +278,8 @@ footer section{
   font-style: normal;
   padding-top: 10px;
 }
-#contact1 > p{
+
+#contact1>p {
   color: #696f91;
   font-size: 15px;
   font-family: "Roboto Slab", serif;
@@ -263,7 +290,7 @@ footer section{
   text-align: left;
 }
 
-#social > h6{
+#social>h6 {
   color: #696f91;
   font-size: 20px;
   font-family: "Roboto Slab", serif;
@@ -272,7 +299,8 @@ footer section{
   font-style: normal;
   padding-top: 10px;
 }
-#social > p{
+
+#social>p {
   color: #696f91;
   font-size: 15px;
   font-family: "Roboto Slab", serif;
@@ -280,9 +308,9 @@ footer section{
   font-weight: weight;
   font-style: normal;
   padding: auto;
-  text-align: center;
 }
-#good > h6{
+
+#good>h6 {
   color: #696f91;
   font-size: 20px;
   font-family: "Roboto Slab", serif;
@@ -291,14 +319,15 @@ footer section{
   font-style: normal;
   padding-top: 10px;
 }
-#good > p{
+
+#good>p {
   color: #696f91;
   font-size: 15px;
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  text-align: right;
+
 }
 
 /*-------------------*/
@@ -306,65 +335,31 @@ footer section{
 /*-------------------*/
 
 .gradient-button1 {
-  text-decoration: none;
-  display: inline-block;
-  color: #e4e6f1;
-  padding: 20px 30px;
-  margin: 10px 20px;
-  border-radius: 10px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
-  background-size: 200% auto;
-  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
-  transition: .5s;
-  height: 50px;
-  width: 300px;
-  text-align: center;
-  font-size: 20px;
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  position: sticky;
   top: 70px;
 }
+
 .gradient-button1:hover {
   background-position: right center;
 }
+
 .gradient-button2 {
-  text-decoration: none;
-  display: inline-block;
-  color: #e4e6f1;
-  padding: 20px 30px;
-  margin: 10px 20px;
-  border-radius: 10px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
-  background-size: 200% auto;
-  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
-  transition: .5s;
-  height: 50px;
-  width: 300px;
-  text-align: center;
-  font-size: 20px;
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  position: sticky;
   top: 190px;
 }
+
 .gradient-button2:hover {
   background-position: right center;
 }
+
 .gradient-button3 {
+  top: 310px;
+}
+
+.gradient-button {
   text-decoration: none;
   display: inline-block;
   color: #e4e6f1;
   padding: 20px 30px;
-  margin: 10px 20px;
+  margin: 10px auto;
   border-radius: 10px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -381,8 +376,8 @@ footer section{
   font-weight: weight;
   font-style: normal;
   position: sticky;
-  top: 310px;
 }
+
 .gradient-button3:hover {
   background-position: right center;
 }
@@ -391,52 +386,76 @@ footer section{
 /*   button_aside    */
 /*-------------------*/
 
-#asidee{
+#asidee {
   margin-left: 30px;
 }
-#stickk{
-  margin-left: 30px;
+
+.asidebuttons {
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    ". ."
+    ". ."
+    ". ."
+    ". ."
+    ". ."
+    ". ."
+    ". .";
+
+}
+
+#stickk {
   position: sticky;
   top: 70px;
-  margin-top: 10px;
+  margin-inline: 10px;
 }
-#stick{
+
+#stick {
   margin-left: 30px;
   position: sticky;
   top: 160px;
   margin-top: 20px;
 }
-#stick1{
+
+#stick1 {
   margin-left: 30px;
   position: sticky;
   top: 250px;
   margin-top: 20px;
 }
-#stick2{
+
+#stick2 {
   margin-left: 30px;
   position: sticky;
   top: 340px;
   margin-top: 20px;
 }
-#stick3{
+
+#stick3 {
   margin-left: 30px;
   position: sticky;
   top: 430px;
   margin-top: 20px;
 }
-#stick4{
+
+#stick4 {
   margin-left: 30px;
   position: sticky;
   top: 520px;
   margin-top: 20px;
 }
-#stick5{
+
+#stick5 {
   margin-left: 30px;
   position: sticky;
   top: 610px;
   margin-top: 20px;
 }
-.button{
+
+.button {
   border: none;
   outline: none;
   display: inline-block;
@@ -453,22 +472,28 @@ footer section{
   display: inline-block;
   margin-left: 40px;
 }
-.button + .button {
+
+.button+.button {
   margin-left: 6px;
 }
+
 .button.blue {
   background: #2196F3;
 }
+
 .button:hover {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
+
 .button:hover.blue {
   background: #39a1f4;
 }
+
 .button:active {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
+
 .button:active.blue {
   background: #0d8aee;
 }
